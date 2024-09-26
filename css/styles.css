@@ -1,23 +1,242 @@
 /* ini CSS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-.margin-body{
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+
+/* Header */
+.main-header {
+    padding: 20px;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+.logo-icon {
+    margin-left: 120px;
+    margin-right: 120px;
+    background-image: url(/assets/logo-nala-design.png);
+    background-size: cover;
+    background-position: center;
+    height: 50px;
+    width: 240px
+    
+}
+
+/* Navigation Bar */
+nav {
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+    align-items: center;
+}
+
+nav > a {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+
+/* Main Content*/
+.margin-section{
     margin-left: 120px;
     margin-right: 120px;
 }
 
 
-
-.logo-icon {
-    background-image: url(assets\lamp-icon.png);
+/* Section Home */
+.section-home {
+    background-image: url(/assets/landing-page-bg.png);
     background-size: cover;
     background-position: center;
-    height: 50px;
-    width: 200px
-    
 }
 
-/* Header */
-.main-header {
-    padding: 20px;
-    background-color: black;
+.header-home-text {
+    color: #f4f4f4;
+    margin-left: 140px;
+    margin-right: 140px;
+    padding-top: 180px;
 }
+
+.header-home-text > p {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.header-home-text > h1 {
+    font-size: 60px;
+}
+
+.header-home-text > button {
+    margin-top: 20px;
+    margin-bottom: 355px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    color: #f4f4f4;
+    background-color: #fe6e00;
+    cursor: pointer;
+
+}
+
+/* Section Our Profile */
+.section-our-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.section-our-profile >h1 {
+    font-size: 70px;
+    display: flex;
+    text-align: right;
+}
+
+.slide-banner-our-profile {
+    background-image: url(/assets/profile-nala-design-1.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 900px;
+    width: 900px;
+    background-color: #fe6e00;
+    border: none;
+    border-radius: 20px;
+}
+
+/* Section Portofolio */
+.section-portofolio {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.section-portofolio > h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.section-portofolio > p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container-portofolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-portofolio-1 {
+    background-color: #fe6e00;
+    background-image:url(/assets/mockup-project-1.png);
+    background-size: cover;
+    background-position: center;
+    width: 1366px;
+    height: 768px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.container-portofolio-2 {
+    background-color: #fe6e00;
+    background-image:url(/assets/mockup-project-2.png);
+    background-size: cover;
+    background-position: center;
+    width: 1366px;
+    height: 768px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.container-portofolio-3 {
+    background-color: #fe6e00;
+    background-image:url(/assets/mockup-project-3.png);
+    background-size: cover;
+    background-position: center;
+    width: 1366px;
+    height: 768px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+/* Section Promotion */
+ .section-promotion {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 140px;
+    margin-right: 140px;
+ }
+
+ .section-promotion > h1 {
+    font-size: 60px;
+    text-align: center;
+ }
+
+ .container-promotion {
+    text-align: center;
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .container-promotion > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .container-promotion-1 {
+    background-image: url(/assets/lamp-icon.png);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+ }
+
+ .container-promotion-2 {
+    background-image: url(/assets/warranty-icon.png);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+ }
+
+ .container-promotion-3 {
+    background-image: url(/assets/cloud-icon.png);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+ }
+
+ .container-promotion-4 {
+    background-image: url(/assets/discount-icon.png);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+ }
