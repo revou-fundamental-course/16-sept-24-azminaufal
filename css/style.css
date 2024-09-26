@@ -1,0 +1,23 @@
+/* ini CSS */
+
+.margin-body{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+
+
+.logo-icon {
+    background-image: url(assets\lamp-icon.png);
+    background-size: cover;
+    background-position: center;
+    height: 50px;
+    width: 200px
+    
+}
+
+/* Header */
+.main-header {
+    padding: 20px;
+    background-color: black;
+}
